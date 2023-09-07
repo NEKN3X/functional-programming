@@ -1,0 +1,8 @@
+{
+  "extends": [
+    "./common.json",
+    "./import.json",
+    "./perfectionist.json",
+    "./ts.json"
+  ]
+}

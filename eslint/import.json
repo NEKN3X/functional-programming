@@ -1,0 +1,20 @@
+{
+  "extends": ["plugin:import/recommended"],
+
+  "plugins": ["import"],
+
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": ["./*", "../*"]
+      }
+    ],
+
+    "import/order": "off",
+    "import/first": "error",
+    "import/newline-after-import": "error",
+    "import/no-anonymous-default-export": "error",
+    "import/prefer-default-export": "error"
+  }
+}
