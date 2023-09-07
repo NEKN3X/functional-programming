@@ -3,6 +3,13 @@
 
   "plugins": ["import"],
 
+  "import/resolver": {
+    "node": {
+      "paths": ["src"],
+      "extensions": [".js", ".ts", ".d.ts", ".tsx"]
+    }
+  },
+
   "rules": {
     "no-restricted-imports": [
       "error",
