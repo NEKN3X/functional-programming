@@ -1,10 +1,10 @@
 import { type IO } from "fp-ts/IO"
 
 import type Artist from "~/model/Artist"
-import Attraction from "~/model/Attraction"
+import type Attraction from "~/model/Attraction"
+import type Movie from "~/model/Movie"
 
 import { type LocationId } from "~/model/Location"
-import Movie from "~/model/Movie"
 
 export type findArtistsFromLocation = (
   locationId: LocationId,
